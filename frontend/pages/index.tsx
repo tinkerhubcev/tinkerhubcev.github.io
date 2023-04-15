@@ -1,10 +1,10 @@
 import Layout from "@/components/Layout";
-import Header from "@/container/Header";
+import Hero from "@/container/Hero";
 
 export default function Home() {
   return (
     <Layout>
-      <Header />
+      <Hero />
     </Layout>
   );
 }

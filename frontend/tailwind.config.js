@@ -16,6 +16,11 @@ module.exports = {
         MajorMono: "Major Mono Display, monospace",
         Montserrat: "Montserrat, sans-serif",
       },
+      colors: {
+        primary: "#410b96",
+        secondary: "#1d216c",
+      },
+      
     },
   },
   plugins: [require("@tailwindcss/typography")],

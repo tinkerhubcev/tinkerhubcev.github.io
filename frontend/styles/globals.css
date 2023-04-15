@@ -13,6 +13,8 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  --color-1: #410b96;
+  --color-2: #1d216c;
 
   --primary-glow: conic-gradient(
     from 180deg at 50% 50%,
@@ -88,6 +90,15 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
+}
+
+.gradient-mesh {
+  height: 100vh;
+  color:#d4d8e5;
+  background-color:hsla(249,49%,30%,1);
+background-image:
+radial-gradient(at 3% 14%, hsla(247,49%,56%,1) 0px, transparent 50%),
+radial-gradient(at 24% 80%, hsla(263,90%,31%,1) 0px, transparent 50%);
 }
 
 /* body {

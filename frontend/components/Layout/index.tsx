@@ -10,6 +10,7 @@ const Layout = ({ children }) => (
       stiffness: 260,
       damping: 20,
     }}
+    className="gradient-mesh"
   >
     {children}
   </motion.div>
